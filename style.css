@@ -1,9 +1,5 @@
 
-* {  
-    margin: 0;  
-    padding: 0;  
-    box-sizing: border-box;  
-}  
+
   
 body {  
     background-color: #656868; 
@@ -26,10 +22,10 @@ body {
   
 #page_header {  
     height: 140px;   
-    background-image: url('header.jpg');   
+    background-image: url("header.jpg");   
     background-size: cover;  
     position: relative;  
-    border-bottom: 1px solid #A0410D;  
+      
 }  
   
 .header-content {  
@@ -49,12 +45,13 @@ body {
     width: 480px;   
     float: left;  
     padding: 20px; 
+    box-sizing: border-box;
     
 }  
   
 #left_side h2 {  
     color: #A0410D;   
-    font-size: 14px;  
+    font-size: 18px;  
     margin-bottom: 8px;  
     margin-top: 10px;  
 }  
@@ -63,17 +60,17 @@ body {
     font-size: 12px;  
     color: #333333;   
     line-height: 1.4;  
-    margin-bottom: 15px;  
+    margin-bottom: 15px;
+ 
 }  
   
   
 #right_side {  
-    width: 152px;   
+    width: 160px;   
     float: right;  
-    background-repeat: repeat-y;  
-    background-color: #F2C766;   
-    min-height: 550px;  
-    border-left: 1px dotted #A0410D;  
+    min-height: 600px;
+   box-sizing: border-box;
+  
 }  
   
 .sidebar-header {  
@@ -113,7 +110,7 @@ body {
 #page_footer {  
     clear: both;  
     height: 70px;   
-    background-image: url('footer.jpg');   
+    background-image: url("footer.jpg");   
     background-size: cover;  
     color: #FCF8E3;   
     text-align: center;  
